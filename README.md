@@ -9,5 +9,6 @@ In general, you should copy the input from `https://adventofcode.com/<year>/day/
 ## [2024](https://adventofcode.com/2024) - [Solutions](/2024)
 
 [Day 1: Historian Hysteria](https://adventofcode.com/2024/day/1) - [Solution](/2024/day1/solve.py)
+
 [Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2) - [Solution](/2024/day2/solve.py)
 [Day 3: Mull It Over](https://adventofcode.com/2024/day/3) - [Solution](/2024/day3/solve.py)
