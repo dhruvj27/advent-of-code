@@ -13,3 +13,5 @@ In general, you should copy the input from `https://adventofcode.com/<year>/day/
 [Day 2: Red-Nosed Reports](https://adventofcode.com/2024/day/2) - [Solution](/2024/day2/solve.py)
 
 [Day 3: Mull It Over](https://adventofcode.com/2024/day/3) - [Solution](/2024/day3/solve.py)
+
+[Day 4: Ceres Search](https://adventofcode.com/2024/day/4) - [Solution](/2024/day4/solve.py)
