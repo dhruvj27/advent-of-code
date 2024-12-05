@@ -42,6 +42,7 @@ def count_part2(text):
         if ((pos + length_line*2 + 2 < length) and (text[pos + length_line + 1] == 'A' )  #Check index and center 'A'
             and ((char == 'M' and text[pos+length_line*2 + 2] == 'S') or (char == 'S' and text[pos+length_line*2 + 2] == 'M')) #Check main diagonal
             and ((text[pos + 2] == 'M' and text[pos + length_line*2] == 'S') or (text[pos + 2] == 'S' and text[pos + length_line*2] == 'M'))):  #Check antidiagonal
+            
             occurences +=1
     return occurences
 
@@ -52,7 +53,7 @@ def main():
         text=f.read()
         print("Input read")
     
-    print(f"\n--- Part One ---\nNo of occurences of 'XMAS': {count_part1(text)}\n")
+    print(f"\n--- Part One ---\nNo of occurences of 'XMAS': {count_part1(text)}")
 
     print(f"\n--- Part Two --- \nNo of occurences of X-'MAS': {count_part2(text)}\n")
 

@@ -42,14 +42,16 @@ def main():
         else:
             correct_page_sum += update[len(update)//2]
 
+    print(f"\n--- Part One ---\n Sum of middle page numbers of correctly-ordered updates: {correct_page_sum}")
+
     """
 
-    #Both Parts together
+    # Both Parts together
 
     correct_page_sum=0
     corrected_page_sum=0
 
-    #Dictionary containing set of all pages that must come after the key page
+    # Dictionary containing set of all pages that must come after the key page
     after = collections.defaultdict(set)
     for x,y in rules:
         after[x].add(y)
@@ -60,8 +62,8 @@ def main():
                 
                 graph = {}
                 for page in update:
-                    graph[page] = [k for k in update if k in after[page]]      #list-implementation
-                    #graph[page] = after[page].intersection(set(update))       #set-implementation
+                    graph[page] = [k for k in update if k in after[page]]      # list-implementation
+                    #graph[page] = after[page].intersection(set(update))       # set-implementation
                 corrected_update = topological_sort(graph)
                 corrected_page_sum += corrected_update[len(corrected_update)//2]
                 
