@@ -17,3 +17,5 @@ In general, you should copy the input from `https://adventofcode.com/<year>/day/
 [Day 4: Ceres Search](https://adventofcode.com/2024/day/4) - [Solution](/2024/day4/solve.py)
 
 [Day 5: Print Queue](https://adventofcode.com/2024/day/5) - [Solution](/2024/day5/solve.py)
+
+[Day 6: Guard Gallivant](https://adventofcode.com/2024/day/6) - [Solution](/2024/day6/solve.py)
